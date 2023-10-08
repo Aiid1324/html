@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Presupuesto</title>
+    <link rel="stylesheet" href="../css/styles.css">
+</head>
+<body>
+    <header class="encabezado">
+        <div>
+            <a href="../index.html"><img id="logo-pagina" src="../imagenes/logo_transparent.png" alt="Logo"></a>
+        </div>
+        <nav class="menu">
+            <ul class="lista">
+                <li><a href="../index.html">Inicio</a></li>
+                <li><a href="productos.html">Productos</a></li>
+                <li><a class="activo" href="presupuesto.html">Presupuesto</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+            </ul>   
+        </nav>
+        <div></div>
+    </header>
+    <main>
+        <h1>Solictud de presupuesto</h1>
+        <section id="presupuesto">
+            <form action="">
+                <div class="elemento-formulario">
+                    <label for="nombre">Nombre:</label>
+                    <input class="entrada" type="text" id="nombre" name="nombre" required>
+                </div>
+                <div class="elemento-formulario">
+                    <label for="email">e-mail:</label>
+                    <input  class="entrada" type="email" id="email" name="email" required>
+                </div>
+                <div class="elemento-formulario">
+                    <label for="telefono">Teléfono:</label>
+                    <input class="entrada" type="tel" id="telefono" name="telefono" required>
+                </div>
+                <div class="elemento-texto">
+                    <label for="informacion">Solicite más información:</label>
+                    <textarea id="informacion" name="informacion" placeholder="Especifique los detalles del proyecto para el que quiere obtener el presupuesto..."required></textarea>
+                </div>
+                <div class="elemento-check">
+                    <input type="checkbox" id="terminos" name="terminos" required>
+                    <label for="terminos">Acepto la política de privacidad.</label>
+                </div>
+                <div class="elemento-boton">
+                    <button class="boton" type="submit">Enviar</button>
+                </div>
+                
+            </form>
+        </section>
+    </main>
+    <footer >
+        <div id="pie">
+            <p>Visita nuestas instalaciones en: </p><address>calle de San Roque, 17 08001 Barcelona España</address>
+            <p>Contacta con nosotros y sigue nuestras novedades:</p>
+            <div id="logos">
+                <img class="logo" src="../imagenes/logo-facebook.png" alt="Logo facebook">
+                <img class="logo" src="../imagenes/logo-instagram.png" alt="Logo instagram">
+                <img class="logo" src="../imagenes/logo-whatsapp.png" alt="Logo whatsapp">
+                <img class="logo" src="../imagenes/logo-twitter.png" alt="Logo twitter">
+            </div>
+            <p id="aviso-legal">Esta obra está bajo una <a href="http://creativecommons.org/licenses/by-nc-nd/4.0/">licencia de Creative Commons  </a></p>
+            <a href="http://creativecommons.org/licenses/by-nc-nd/4.0/"><img src="https://i.creativecommons.org/l/by-nc-nd/4.0/80x15.png" /></a>
+        </div>
+    </footer>
+</body>
+</html>
